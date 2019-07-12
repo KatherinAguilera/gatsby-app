@@ -22,10 +22,11 @@ export const StyledHeader = styled.header`
   width: 100%;
   max-width: 960;
   display: flex;
+  justify-content: space-around;
   position: fixed;
   z-index: 3;
   align-items: center;
-  justify-content: space-between;
+
   a {
     height: 100%;
     font-size: 0.6rem;
@@ -43,7 +44,7 @@ export const StyledHeader = styled.header`
     font-size: 0.2rem;
   }
   ${above.medium`
-    padding: 0 2rem;
+ 
     height: 3.5rem;
     a{
       height: 100%;
@@ -51,8 +52,6 @@ export const StyledHeader = styled.header`
     }
   `}
   ${above.large`
-    padding: 0 10rem;
-    height: 4.5rem;
     a{
       height: 100%;
       font-size: 0.8rem;
@@ -115,7 +114,6 @@ export const StyledJumbo = styled.div`
       font-size: 2rem;
     };
   `}
-
   &:before{
     content: " ";
     background-color: red;
@@ -141,7 +139,6 @@ export const StyledJumbo = styled.div`
       top: -66%;
     `}
   };
-
 `
 
 export const StyledProducts = styled.div`
