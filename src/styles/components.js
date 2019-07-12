@@ -464,6 +464,6 @@ export const Content = styled.div`
     padding-top: 3.5rem;
     `}
   ${above.large`
-    padding-top: 4.5rem;
+   
   `}
 `
