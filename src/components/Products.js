@@ -5,7 +5,7 @@ import { StyledProducts } from "../styles/components"
 
 export default function Products({ products }) {
   return (
-    <StyledProducts>
+    <StyledProducts id="Productos">
       <h2>Productos</h2>
       <section>
         {products.map(({ node }) => {

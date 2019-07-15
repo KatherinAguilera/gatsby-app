@@ -11,7 +11,7 @@ const Layout = ({ children }) => (
       <main>{children}</main>
       <Footer>
         con ♥︎ por
-        <a href="https://www.platzi.com">Platzi</a>
+        <a href="http://katherinaguilera.github.io">Katherine</a>
       </Footer>
     </Content>
   </>

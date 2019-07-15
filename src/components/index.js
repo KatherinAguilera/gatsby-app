@@ -7,3 +7,4 @@ export { default as Products } from "./Products"
 export { default as ProductDetail } from "./ProductDetail"
 export { default as Stars } from "./Stars"
 export { default as Cart } from "./Cart"
+
